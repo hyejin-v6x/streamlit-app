@@ -1,19 +1,22 @@
-import io
+# import io
 import os
-from pathlib import Path
+
+# from pathlib import Path
 
 import requests
-from PIL import Image
-from pydantic import BaseModel
+
+# from PIL import Image
+# from pydantic import BaseModel
 
 import streamlit as st
 import json
 import shutil
-import re
-from datetime import datetime
 
-path = "http://localhost:8001"
-# path = "http://192.168.136.49:8001"
+# import re
+# from datetime import datetime
+
+# path = "http://localhost:8001"
+path = "https://bc35-211-109-189-50.ngrok-free.app/"
 
 if st.button("hello"):
     response = requests.get(f"{path}/")
