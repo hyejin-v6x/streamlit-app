@@ -16,7 +16,7 @@ import shutil
 # from datetime import datetime
 
 # path = "http://localhost:8001"
-path = "https://bc35-211-109-189-50.ngrok-free.app/"
+path = "https://2b77-211-109-189-50.ngrok-free.app"
 
 if st.button("hello"):
     response = requests.get(f"{path}/")
