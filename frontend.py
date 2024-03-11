@@ -47,7 +47,7 @@ n_prompt = st.text_input(
 )
 # num_frames = st.text_input("num_frames")
 guidance_scale = st.text_input("guidance_scale", value="13")
-num_inference_steps = st.text_input("num_inference_steps", value="15")
+num_inference_steps = st.text_input("num_inference_steps", value="10")
 
 
 if st.button("inference!"):
